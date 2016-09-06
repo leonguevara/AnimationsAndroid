@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         secondButton.setVisibility(View.VISIBLE);
     }
 
-    // this method shows how to move an image programmatically; called by fade function
+    // this method shows how to move an image programmatically
     public void moveFlanders(View view) {
         ImageView flanders = (ImageView) findViewById(R.id.flanders);
         ImageView beatles = (ImageView) findViewById(R.id.theBeatles);
